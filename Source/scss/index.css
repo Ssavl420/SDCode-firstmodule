@@ -76,13 +76,24 @@ html {
   scroll-behavior: smooth;
 }
 
+body,
+h1,
+a,
+button,
+.description,
+.card__text,
+.background__bigpicture-text,
+.contacts__connection,
+.footer__copyrights {
+  letter-spacing: -0.03em;
+}
+
 body {
   margin: 0 auto;
   max-width: 1400px;
   font-family: Manrope;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
 }
 
 .container {
@@ -111,27 +122,28 @@ body {
   align-items: center;
 }
 
-.header__container-logo {
+.header__logo {
   width: 126.89px;
   height: 21.42px;
 }
 
-.header__container-menu {
+.header__menu {
   padding: 7px 0 0 0;
   text-transform: uppercase;
   color: #121212;
 }
 
-.header__container-menu a {
+.header__menu a {
   margin: 0 58px 0 0;
+  padding: 0 0 2px 0;
   color: #121212;
   transition: opacity 0.5s ease 0s;
 }
-.header__container-menu a:hover {
+.header__menu a:hover {
   border-bottom: 1px solid rgb(0, 0, 0);
   opacity: 0.5;
 }
-.header__container-menu a:last-child {
+.header__menu a:last-child {
   margin-right: 0;
 }
 
@@ -147,7 +159,6 @@ h1 {
   padding: 3px 0 0 0;
   font-size: 60px;
   line-height: 60px;
-  letter-spacing: -0.03em;
 }
 
 .main__picture {
@@ -187,7 +198,6 @@ h1 {
   margin: 14px 0 0 0px;
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
   color: #AD1818;
 }
 
@@ -213,7 +223,6 @@ h1 {
   height: 366px;
   font-size: 45px;
   line-height: 61px;
-  letter-spacing: -0.03em;
 }
 
 .card-btn {
@@ -224,7 +233,6 @@ h1 {
   height: 67px;
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
   background-color: #AD1818;
   color: white;
   border-radius: 5px;
@@ -234,7 +242,6 @@ h1 {
   margin: 15px 0 0 0;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
   color: #121212;
 }
 
@@ -248,7 +255,6 @@ h1 {
   height: 153px;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
   background-color: transparent;
   color: #AD1818;
   transition: all 0.5s ease 0s;
@@ -321,7 +327,6 @@ h1 {
   height: 82px;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
   position: absolute;
   left: 125px;
   bottom: 60px;
@@ -345,7 +350,6 @@ h1 {
   margin: 32px 0 0 0;
   font-size: 60px;
   line-height: 60px;
-  letter-spacing: -0.03em;
   display: block;
   position: relative;
 }
@@ -373,7 +377,7 @@ h1 {
   background-color: #121212;
 }
 
-.contacts__phone {
+.contacts__phone a {
   letter-spacing: -0.01em;
 }
 
@@ -411,7 +415,6 @@ h1 {
   text-align: center;
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
   color: #fff;
 }
 .footer__copyrights p {
